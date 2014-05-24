@@ -1,0 +1,38 @@
+PODS:
+  - ChuzzleKit (1.0.2)
+  - Mantle (1.5):
+    - Mantle/extobjc
+  - Mantle/extobjc (1.5)
+  - PromiseKit (0.9.6):
+    - PromiseKit/base
+    - PromiseKit/CoreLocation
+    - PromiseKit/Foundation
+    - PromiseKit/MapKit
+    - PromiseKit/private
+    - PromiseKit/SocialFramework
+    - PromiseKit/UIKit
+  - PromiseKit/base (0.9.6)
+  - PromiseKit/CoreLocation (0.9.6):
+    - PromiseKit/base
+    - PromiseKit/private
+  - PromiseKit/Foundation (0.9.6):
+    - ChuzzleKit
+    - PromiseKit/base
+  - PromiseKit/MapKit (0.9.6):
+    - PromiseKit/base
+  - PromiseKit/private (0.9.6)
+  - PromiseKit/SocialFramework (0.9.6):
+    - PromiseKit/base
+  - PromiseKit/UIKit (0.9.6):
+    - PromiseKit/base
+
+DEPENDENCIES:
+  - Mantle
+  - PromiseKit (= 0.9.6)
+
+SPEC CHECKSUMS:
+  ChuzzleKit: 9932e7e4576360ae6ed95f912e74d2ee4288626b
+  Mantle: c67a7e45e14196ed42b2a7cbb98ff6a9920e6b92
+  PromiseKit: bc7fa9ab0215966935614d890e914a6116840ca7
+
+COCOAPODS: 0.32.1
